@@ -30,10 +30,14 @@ The [cumulative distribution function][cdf] for a [beta prime][betaprime-distrib
 
 <!-- <equation class="equation" label="eq:betaprime_cdf" align="center" raw="F(x;\alpha,\beta) = \begin{cases} I_{\frac{x}{1+x}}(\alpha, \beta) & \text{ for } x > 0 \\ 0 & \text{ otherwise } \end{cases}" alt="Cumulative distribution function for a beta prime distribution."> -->
 
-<div class="equation" align="center" data-raw-text="F(x;\alpha,\beta) = \begin{cases} I_{\frac{x}{1+x}}(\alpha, \beta) &amp; \text{ for } x &gt; 0 \\ 0 &amp; \text{ otherwise } \end{cases}" data-equation="eq:betaprime_cdf">
+```math
+F(x;\alpha,\beta) = \begin{cases} I_{\frac{x}{1+x}}(\alpha, \beta) & \text{ for } x > 0 \\ 0 & \text{ otherwise } \end{cases}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="F(x;\alpha,\beta) = \begin{cases} I_{\frac{x}{1+x}}(\alpha, \beta) &amp; \text{ for } x &gt; 0 \\ 0 &amp; \text{ otherwise } \end{cases}" data-equation="eq:betaprime_cdf">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@51534079fef45e990850102147e8945fb023d1d0/lib/node_modules/@stdlib/stats/base/dists/betaprime/logcdf/docs/img/equation_betaprime_cdf.svg" alt="Cumulative distribution function for a beta prime distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -43,20 +47,30 @@ where `alpha > 0` is the first shape parameter, `beta > 0` is the second shape p
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-betaprime-logcdf
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logcdf@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logcdf@deno/mod.js';
+var logcdf = require( '@stdlib/stats-base-dists-betaprime-logcdf' );
 ```
 
 #### logcdf( x, alpha, beta )
@@ -151,9 +165,9 @@ y = mylogcdf( 0.3 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-logcdf@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var EPS = require( '@stdlib/constants-float64-eps' );
+var logcdf = require( '@stdlib/stats-base-dists-betaprime-logcdf' );
 
 var alpha;
 var beta;
@@ -191,7 +205,7 @@ for ( i = 0; i < 10; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -235,7 +249,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
