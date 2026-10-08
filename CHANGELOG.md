@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-25)
+## Unreleased (2026-10-08)
+
+<section class="features">
+
+### Features
+
+-   [`c36cc64`](https://github.com/stdlib-js/stdlib/commit/c36cc641cd521406e2ad821691962693267a2d78) - add C implementation for `stats/base/dists/betaprime/logcdf` [(#14676)](https://github.com/stdlib-js/stdlib/pull/14676)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3439](https://github.com/stdlib-js/stdlib/issues/3439)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`c36cc64`](https://github.com/stdlib-js/stdlib/commit/c36cc641cd521406e2ad821691962693267a2d78) - **feat:** add C implementation for `stats/base/dists/betaprime/logcdf` [(#14676)](https://github.com/stdlib-js/stdlib/pull/14676) _(by Philipp Burckhardt, Karan Anand)_
 -   [`e0366b2`](https://github.com/stdlib-js/stdlib/commit/e0366b2a7b2aec0f7c5108e17dd2643e9f31e53f) - **test:** migrate `stats/base/dists/betaprime/logcdf` to ULP-based assertions [(#15519)](https://github.com/stdlib-js/stdlib/pull/15519) _(by Athan Reines)_
 
 </details>
@@ -24,9 +47,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
