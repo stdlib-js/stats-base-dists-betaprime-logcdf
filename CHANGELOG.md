@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-08)
+## Unreleased (2026-11-07)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`c36cc64`](https://github.com/stdlib-js/stdlib/commit/c36cc641cd521406e2ad821691962693267a2d78) - **feat:** add C implementation for `stats/base/dists/betaprime/logcdf` [(#14676)](https://github.com/stdlib-js/stdlib/pull/14676) _(by Philipp Burckhardt, Karan Anand)_
 -   [`e0366b2`](https://github.com/stdlib-js/stdlib/commit/e0366b2a7b2aec0f7c5108e17dd2643e9f31e53f) - **test:** migrate `stats/base/dists/betaprime/logcdf` to ULP-based assertions [(#15519)](https://github.com/stdlib-js/stdlib/pull/15519) _(by Athan Reines)_
 
